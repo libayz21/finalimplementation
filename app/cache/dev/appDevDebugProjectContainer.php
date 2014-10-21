@@ -3296,7 +3296,7 @@ class appDevDebugProjectContainer extends Container
             'kernel.root_dir' => 'C:/Users/Jaglopez/Documents/GitHub/finalimplementation/app',
             'kernel.environment' => 'dev',
             'kernel.debug' => true,
-            'kernel.name' => 'app',
+            'kernel.name' => 'ap_',
             'kernel.cache_dir' => 'C:/Users/Jaglopez/Documents/GitHub/finalimplementation/app/cache/dev',
             'kernel.logs_dir' => 'C:/Users/Jaglopez/Documents/GitHub/finalimplementation/app/logs',
             'kernel.bundles' => array(
