@@ -54,18 +54,18 @@ class scholarshipController extends Controller
 		// 	    			'host' => 'ec2-54-204-31-13.compute-1.amazonaws.com',
 		// 	    			'driver' => 'pdo_pgsql',
 		// 	    	);
+	$connectionParams = array(
+		'dbname' => 'd8cm4iho5j5a97',
+		'user' => 'bnayeyccdgbqzi',
+		'password' => '-sTc8ZZDQHfisDnQSt7jsPnVfp',
+		'host' => 'ec2-54-225-102-235.compute-1.amazonaws.com',
+		'driver' => 'pdo_pgsql',
 // 		$connectionParams = array(
-// 				'dbname' => 'daokdplhc0lu8o',
-// 				'user' => 'apqhwhukcxzeue',
-// 				'password' => 'bOKqjqOlg56Z7a2egwpvF_Tar4',
-// 				'host' => 'ec2-54-225-102-235.compute-1.amazonaws.com',
+// 				'dbname' => 'ICT',
+// 				'user' => 'postgres',
+// 				'password' => 'June2010',
+// 				'host' => 'localhost',
 // 				'driver' => 'pdo_pgsql',
-		$connectionParams = array(
-				'dbname' => 'ICT',
-				'user' => 'postgres',
-				'password' => 'June2010',
-				'host' => 'localhost',
-				'driver' => 'pdo_pgsql',
 		);
 		$conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);
 		$conn->beginTransaction();
@@ -295,18 +295,18 @@ class scholarshipController extends Controller
     	// 	    			'host' => 'ec2-54-204-31-13.compute-1.amazonaws.com',
     	// 	    			'driver' => 'pdo_pgsql',
     	// 	    	);
+	$connectionParams = array(
+		'dbname' => 'd8cm4iho5j5a97',
+		'user' => 'bnayeyccdgbqzi',
+		'password' => '-sTc8ZZDQHfisDnQSt7jsPnVfp',
+		'host' => 'ec2-54-225-102-235.compute-1.amazonaws.com',
+		'driver' => 'pdo_pgsql',
 //     	$connectionParams = array(
-//     			'dbname' => 'daokdplhc0lu8o',
-//     			'user' => 'apqhwhukcxzeue',
-//     			'password' => 'bOKqjqOlg56Z7a2egwpvF_Tar4',
-//     			'host' => 'ec2-54-225-102-235.compute-1.amazonaws.com',
+//     			'dbname' => 'ICT',
+//     			'user' => 'postgres',
+//     			'password' => 'June2010',
+//     			'host' => 'localhost',
 //     			'driver' => 'pdo_pgsql',
-    	$connectionParams = array(
-    			'dbname' => 'ICT',
-    			'user' => 'postgres',
-    			'password' => 'June2010',
-    			'host' => 'localhost',
-    			'driver' => 'pdo_pgsql',
     	);
     	$conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);
     	$conn->beginTransaction();
